@@ -1,6 +1,6 @@
 # 8bit_concat
 
-This is builder for MSXPanel(to be linked).
+This is builder for [MSXPanel](https://github.com/hoge1e3/MSXPanel).
 
 - Clone this repository
 - Clone https://github.com/hoge1e3/8bitworkshop/tree/msx-runtime-only into the sibling directory.
