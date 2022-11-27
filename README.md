@@ -10,5 +10,6 @@ This is builder for MSXPanel(to be linked).
 ~~~
 npm install
 npm run build
-npm run copy
 ~~~
+
+The generated concat.js file is hosted in https://github.com/hoge1e3/hoge1e3.github.io/tree/master/msx/8bitws
