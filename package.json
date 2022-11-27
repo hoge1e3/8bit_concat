@@ -1,0 +1,20 @@
+{
+  "name": "8bit_concat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "embedui.js",
+  "scripts": {
+    "build": "cp ../8bitworkshop/gen/*.js gen/ && browserify --transform babelify --outfile concat.js gen/embedui.js && npm run copy ",
+    "copy": "cp concat.js ../8bitworkshop/ ../hoge1e3.github.io/msx/8bitws/ ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "sourceType": "module",
+  "author": "hoge1e3",
+  "license": "GPL",
+  "devDependencies": {
+    "babelify": "^10.0.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.19.4"
+  }
+}

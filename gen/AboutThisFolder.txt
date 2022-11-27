@@ -1,0 +1,1 @@
+Generated js files in 8bitworkshop are copied here.
